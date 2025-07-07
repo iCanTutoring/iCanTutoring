@@ -187,3 +187,21 @@ const Home = () => {
       <footer className="bg-gray-900 text-white py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Contact Us Anytime</h2>
+          <div className="space-y-4 text-lg">
+            <p>
+              <strong>Email:</strong> info@icantutoring.com
+            </p>
+            <p>
+              <strong>Phone/WhatsApp:</strong> +44 7575 898738
+            </p>
+            <p className="text-blue-300 mt-6">
+              Support available every day outside of sessions.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Home;
