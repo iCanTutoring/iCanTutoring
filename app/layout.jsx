@@ -1,8 +1,8 @@
-import './globals.css';
+import "./globals.css";
 
 export const metadata = {
-  title: "iCan Tutoring",
-  description: "Personalised English tutoring for KS2, KS3, and KS4",
+  title: "iCanTutoring",
+  description: "Achieve more with iCanTutoring",
 };
 
 export default function RootLayout({ children }) {
