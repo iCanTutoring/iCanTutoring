@@ -4,7 +4,10 @@ import { Avatar, AvatarImage, AvatarFallback } from "../components/ui/avatar";
 
 const Home = () => {
   return (
+<div>
+      <h1 className="text-4xl font-bold text-red-600">Tailwind is working!</h1>
     <div className="min-h-screen bg-background">
+
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
