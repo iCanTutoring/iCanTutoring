@@ -4,9 +4,8 @@ import { Avatar, AvatarImage, AvatarFallback } from "../components/ui/avatar";
 
 const Home = () => {
   return (
-<div>
-      <h1 className="text-4xl font-bold text-red-600">Tailwind is working!</h1>
     <div className="min-h-screen bg-background">
+      <h1 className="text-4xl font-bold text-red-600 text-center mt-6">Tailwind is working!</h1>
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20 px-4">
@@ -40,6 +39,7 @@ const Home = () => {
             What We Offer
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
+            {/* KS2 */}
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
                 <CardTitle className="text-2xl text-blue-600">KS2</CardTitle>
@@ -55,6 +55,7 @@ const Home = () => {
               </CardContent>
             </Card>
 
+            {/* KS3 */}
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
                 <CardTitle className="text-2xl text-blue-600">KS3</CardTitle>
@@ -70,6 +71,7 @@ const Home = () => {
               </CardContent>
             </Card>
 
+            {/* KS4 */}
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
                 <CardTitle className="text-2xl text-blue-600">KS4</CardTitle>
@@ -95,6 +97,7 @@ const Home = () => {
             What Parents and Students Say
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
+            {/* Testimonial 1 */}
             <Card>
               <CardContent className="p-6">
                 <p className="text-gray-700 mb-4 italic">
@@ -105,6 +108,7 @@ const Home = () => {
               </CardContent>
             </Card>
 
+            {/* Testimonial 2 */}
             <Card>
               <CardContent className="p-6">
                 <p className="text-gray-700 mb-4 italic">
@@ -115,6 +119,7 @@ const Home = () => {
               </CardContent>
             </Card>
 
+            {/* Testimonial 3 */}
             <Card>
               <CardContent className="p-6">
                 <p className="text-gray-700 mb-4 italic">
