@@ -1,4 +1,4 @@
-import "./globals.css";
+import "./Globals.css";
 
 export const metadata = {
   title: "iCanTutoring",
